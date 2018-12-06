@@ -1,9 +1,14 @@
 @media screen and (max-width: 600px) {
-    .logo {
+    .header__logo {
         height: 50px;
     }
 
-    .text-box {
+    .header__text-box {
         top: 55%;
+    }
+
+    .grid {
+        padding-left: .25rem;
+        padding-right: .25rem;
     }
 }

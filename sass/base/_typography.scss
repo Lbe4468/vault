@@ -31,3 +31,13 @@ body {
         animation-timing-function: ease-out;
     }
 }
+
+.section-about {
+    color: $color-blue-dark;
+    font-size: 3rem;
+
+    p {
+        font-size: 1.75rem;
+        font-weight: 500;
+    }
+}

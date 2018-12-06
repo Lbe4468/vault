@@ -62,6 +62,13 @@ body {
     animation-duration: 1s;
     animation-timing-function: ease-out; }
 
+.section-about {
+  color: #0f3256;
+  font-size: 3rem; }
+  .section-about p {
+    font-size: 1.75rem;
+    font-weight: 500; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -91,6 +98,11 @@ body {
   animation: moveInBottom .5s ease-out .5s;
   animation-fill-mode: backwards; }
 
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+  text-align: center; }
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to left top, rgba(153, 186, 221, 0.801), rgba(153, 186, 221, 0.801)), url(../img/bank-vault.jpg);
@@ -111,7 +123,14 @@ body {
     text-align: center; }
 
 @media screen and (max-width: 600px) {
-  .logo {
+  .header__logo {
     height: 50px; }
-  .text-box {
-    top: 55%; } }
+  .header__text-box {
+    top: 55%; }
+  .grid {
+    padding-left: .25rem;
+    padding-right: .25rem; } }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding-top: 3.5rem; }

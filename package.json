@@ -1,0 +1,23 @@
+{
+  "name": "vault",
+  "version": "1.0.0",
+  "description": "Vault Home Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lbe4468/vault.git"
+  },
+  "author": "Luke Epps",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lbe4468/vault/issues"
+  },
+  "homepage": "https://github.com/Lbe4468/vault#readme",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

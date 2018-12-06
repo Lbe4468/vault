@@ -74,14 +74,6 @@ body {
     letter-spacing: 1.5px;
     color: #777; }
 
-.card__heading {
-  color: #0f3256;
-  display: block;
-  font-size: 22px; }
-
-.card__body {
-  display: block; }
-
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -110,16 +102,6 @@ body {
 .btn--animated {
   animation: moveInBottom .5s ease-out .5s;
   animation-fill-mode: backwards; }
-
-.card {
-  background-color: #fff;
-  height: 40rem;
-  box-shadow: 0 4px 8px 0 rgba(153, 186, 221, 0.801), 0 6px 20px 0 rgba(153, 186, 221, 0.801); }
-  .card__heading {
-    padding: 25px 0;
-    font-weight: 600; }
-  .card__body {
-    padding: 20px; }
 
 .row {
   max-width: 114rem;
@@ -167,23 +149,11 @@ body {
     padding-right: .25rem; }
   .row {
     padding-left: .75rem;
-    padding-right: .75rem; }
-  .heading-about {
-    color: #0f3256; }
-    .heading-about--main {
-      font-size: 3.25rem;
-      letter-spacing: 2.5px; }
-    .heading-about--sub {
-      font-size: 1.5rem;
-      letter-spacing: 1.5px; }
-  .card {
-    width: 100%;
-    height: auto; } }
+    padding-right: .75rem; } }
 
 .section-about {
   background-color: #fff;
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-top: 4rem; }
 
-.heading-about--sub {
-  padding-bottom: 30px; }
+.section-reasons {
+  background: rgba(153, 186, 221, 0.801); }

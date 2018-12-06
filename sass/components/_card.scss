@@ -1,0 +1,14 @@
+.card {
+    background-color: $color-white;
+    height: 40rem;
+    box-shadow: 0 4px 8px 0 $color-blue-light, 0 6px 20px 0 $color-blue-light;
+
+    &__heading {
+        padding: 25px 0;
+        font-weight: 600;
+    }
+
+    &__body {
+        padding: 20px;
+    }
+}

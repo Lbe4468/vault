@@ -1,11 +1,11 @@
 .section-about {
     background-color: $color-white;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: $gutter-vertical;
 }
 
-.heading-about--sub {
-    padding-bottom: 30px;
+.heading-about {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 }
 
 .about-cards {}

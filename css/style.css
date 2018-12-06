@@ -66,21 +66,13 @@ body {
   color: #0f3256; }
   .heading-about--main {
     display: block;
-    font-size: 4.5rem;
+    font-size: 5rem;
     letter-spacing: 2.5px; }
   .heading-about--sub {
     display: block;
     font-size: 2rem;
     letter-spacing: 1.5px;
     color: #777; }
-
-.card__heading {
-  color: #0f3256;
-  display: block;
-  font-size: 22px; }
-
-.card__body {
-  display: block; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -112,14 +104,55 @@ body {
   animation-fill-mode: backwards; }
 
 .card {
-  background-color: #fff;
-  height: 40rem;
+  height: 30rem;
   box-shadow: 0 4px 8px 0 rgba(153, 186, 221, 0.801), 0 6px 20px 0 rgba(153, 186, 221, 0.801); }
   .card__heading {
-    padding: 25px 0;
+    display: block;
+    color: #0f3256;
+    padding: 2.5rem 0 .75rem 0;
+    font-size: 2.75rem;
     font-weight: 600; }
   .card__body {
-    padding: 20px; }
+    display: block;
+    padding: 0 2.5rem;
+    color: #000;
+    font-weight: 500; }
+
+.footer {
+  background-color: #333;
+  padding: 6.5rem 0;
+  font-size: 1.4rem;
+  color: #f7f7f7; }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 8rem; }
+  .footer__logo {
+    width: 17.5rem;
+    height: auto; }
+  .footer__navigation {
+    border-top: 1px solid #f7f7f7;
+    padding-top: 2rem;
+    display: inline-block; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block;
+    text-transform: uppercase; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    color: #f7f7f7;
+    background-color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; }
+  .footer__link:hover, .footer__link:active {
+    color: rgba(153, 186, 221, 0.801);
+    box-shadow: 0 1rem 2rem rgba(51, 51, 51, 0.4);
+    transform: translateY(-3px); }
+  .footer__copyright {
+    padding-top: 2rem;
+    text-transform: uppercase; }
 
 .row {
   max-width: 114rem;
@@ -133,6 +166,8 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 2 * 6rem) / 2); }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-2-of-3 {
@@ -182,8 +217,8 @@ body {
 
 .section-about {
   background-color: #fff;
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-bottom: 8rem; }
 
-.heading-about--sub {
-  padding-bottom: 30px; }
+.heading-about {
+  padding-bottom: 4rem;
+  padding-top: 4rem; }

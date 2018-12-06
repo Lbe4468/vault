@@ -37,7 +37,7 @@ body {
 
     &--main {
         display: block;
-        font-size: 4.5rem;
+        font-size: 5rem;
         letter-spacing: 2.5px;
     }
 
@@ -47,14 +47,4 @@ body {
         letter-spacing: 1.5px;
         color: $color-grey-dark;
     }
-}
-
-.card__heading {
-    color: $color-blue-dark;
-    display: block;
-    font-size: 22px;
-}
-
-.card__body {
-    display: block;
 }

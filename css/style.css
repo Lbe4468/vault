@@ -41,39 +41,6 @@ body {
   line-height: 1.7;
   color: #777; }
 
-.heading-primary {
-  color: #fff;
-  text-transform: uppercase; }
-  .heading-primary--main {
-    display: block;
-    font-size: 60px;
-    font-weight: 600;
-    letter-spacing: 10px;
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out; }
-  .heading-primary--sub {
-    padding: 7.5px 0 30px 0;
-    display: block;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 2.5px;
-    animation-name: moveInRight;
-    animation-duration: 1s;
-    animation-timing-function: ease-out; }
-
-.heading-about {
-  color: #0f3256; }
-  .heading-about--main {
-    display: block;
-    font-size: 5rem;
-    letter-spacing: 2.5px; }
-  .heading-about--sub {
-    display: block;
-    font-size: 2rem;
-    letter-spacing: 1.5px;
-    color: #777; }
-
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -192,6 +159,27 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase; }
+  .heading-primary--main {
+    display: block;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
+  .heading-primary--sub {
+    padding: 7.5px 0 30px 0;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
+
 @media screen and (max-width: 600px) {
   .header__logo {
     height: 50px; }
@@ -219,6 +207,41 @@ body {
   background-color: #fff;
   padding-bottom: 8rem; }
 
-.heading-about {
-  padding-bottom: 4rem;
-  padding-top: 4rem; }
+.about {
+  padding: 4rem 0; }
+  .about__main {
+    color: #0f3256;
+    display: block;
+    font-size: 4rem;
+    letter-spacing: 1.5px; }
+  .about__sub {
+    display: block;
+    font-size: 2rem;
+    letter-spacing: .5px;
+    color: #000; }
+
+.content-separator {
+  border-bottom: 1px solid #777;
+  margin-bottom: 4rem; }
+
+.section-cta {
+  background-color: rgba(153, 186, 221, 0.801); }
+  .section-cta__button {
+    text-align: center;
+    padding: 4rem 0; }
+
+.section-financial {
+  padding-bottom: 8rem; }
+
+.financial {
+  padding: 4rem 0; }
+  .financial__main {
+    color: #0f3256;
+    display: block;
+    font-size: 4rem;
+    letter-spacing: 1.5px; }
+  .financial__sub {
+    display: block;
+    font-size: 2rem;
+    letter-spacing: .5px;
+    color: #000; }

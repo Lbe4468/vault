@@ -3,9 +3,56 @@
     padding-bottom: $gutter-vertical;
 }
 
-.heading-about {
-    padding-bottom: 4rem;
-    padding-top: 4rem;
+.about {
+    padding: 4rem 0;
+
+    &__main {
+        color: $color-blue-dark;
+        display: block;
+        font-size: 4rem;
+        letter-spacing: 1.5px;
+    }
+
+    &__sub {
+        display: block;
+        font-size: 2rem;
+        letter-spacing: .5px;
+        color: $color-black;
+    }
 }
 
-.about-cards {}
+.content-separator {
+    border-bottom: 1px solid $color-grey-dark;
+    margin-bottom: 4rem;
+}
+
+.section-cta {
+    background-color: $color-blue-light;
+
+    &__button {
+        text-align: center;
+        padding: 4rem 0;
+    }
+}
+
+.section-financial {
+    padding-bottom: $gutter-vertical;
+}
+
+.financial {
+    padding: 4rem 0;
+
+    &__main {
+        color: $color-blue-dark;
+        display: block;
+        font-size: 4rem;
+        letter-spacing: 1.5px;
+    }
+
+    &__sub {
+        display: block;
+        font-size: 2rem;
+        letter-spacing: .5px;
+        color: $color-black;
+    }
+}

@@ -1,39 +1,5 @@
-// @media screen and (max-width: 600px) {
-//     .header__logo {
-//         height: 60px;
-//     }
-
-//     .header__text-box {
-//         top: 55%;
-//     }
-
-//     // .grid {
-//     //     padding-left: .25rem;
-//     //     padding-right: .25rem;
-//     // }
-
-//     // .row {
-//     //     padding-left: .75rem;
-//     //     padding-right: .75rem;
-//     // }
-
-//     .heading-about {
-//         color: $color-blue-dark;
-
-//         &--main {
-//             font-size: 3.25rem;
-//             letter-spacing: 2.5px;
-//         }
-
-//         &--sub {
-//             font-size: 1.5rem;
-//             letter-spacing: 1.5px;
-//         }
-//     }
-
-//     .card {
-//         width: 100%;
-//         height: auto;
-//     }
-
-// }
+@media screen and (max-width: 600px) {
+    .header__text-box {
+        margin-top: 6rem;
+    }
+}

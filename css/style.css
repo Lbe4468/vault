@@ -191,7 +191,7 @@ body {
     @media only screen and (max-width: 37.5em) {
       .header__logo-box {
         top: 3.25rem;
-        left: 2rem; } }
+        left: 2.5rem; } }
   .header__logo {
     height: 7rem; }
   .header__text-box {

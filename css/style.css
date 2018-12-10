@@ -106,19 +106,19 @@ body {
   animation-fill-mode: backwards; }
 
 .card {
-  height: 30rem;
-  box-shadow: 0 4px 6px 0 #333;
+  height: 32rem;
+  box-shadow: 1px 2px 4px 0 #333;
   text-align: center; }
   .card__heading {
     display: block;
-    color: #0f3256;
+    color: #333;
     padding: 2.5rem 0 .75rem 0;
     font-size: 2.75rem;
     font-weight: 600; }
   .card__body {
     display: block;
     padding: 0 2.5rem;
-    color: #000;
+    color: #777;
     font-weight: 500; }
 
 .footer {
@@ -383,7 +383,7 @@ body {
 .about {
   padding: 4rem 0 2.5rem 0; }
   .about__main {
-    color: #0f3256;
+    color: #333;
     display: block;
     font-size: 4rem;
     letter-spacing: 1.5px; }
@@ -391,7 +391,7 @@ body {
     display: block;
     font-size: 2rem;
     letter-spacing: .5px;
-    color: #000; }
+    color: #777; }
 
 .section-cta {
   background: linear-gradient(to left top, rgba(24, 130, 243, 0.801), rgba(153, 186, 221, 0.801)); }
@@ -405,7 +405,7 @@ body {
 .financial {
   padding: 4rem 0; }
   .financial__main {
-    color: #0f3256;
+    color: #333;
     display: block;
     font-size: 4rem;
     letter-spacing: 1.5px; }
@@ -413,4 +413,4 @@ body {
     display: block;
     font-size: 2rem;
     letter-spacing: .5px;
-    color: #000; }
+    color: #777; }

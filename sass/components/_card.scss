@@ -1,11 +1,11 @@
 .card {
-    height: 30rem;
-    box-shadow: 0 4px 6px 0 $color-grey-dark-2;
+    height: 32rem;
+    box-shadow: 1px 2px 4px 0 $color-grey-dark-2;
     text-align: center;
 
     &__heading {
         display: block;
-        color: $color-blue-dark;
+        color: $color-grey-dark-2;
         padding: 2.5rem 0 .75rem 0;
         font-size: 2.75rem;
         font-weight: 600;
@@ -14,7 +14,7 @@
     &__body {
         display: block;
         padding: 0 2.5rem;
-        color: $color-black;
+        color: $color-grey-dark;
         font-weight: 500;
     }
 }

@@ -1,5 +1,23 @@
 @media screen and (max-width: 600px) {
     .header__text-box {
-        margin-top: 6rem;
+        margin-top: 8rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__text-box {
+        margin-top: 7rem;
+    }
+
+    .heading-primary {
+        color: $color-white;
+
+        &--main {
+            font-size: 5.5rem;
+        }
+
+        &--sub {
+            font-size: 2rem;
+        }
     }
 }

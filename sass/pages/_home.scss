@@ -23,7 +23,7 @@
 
 .section-cta {
     // background-color: $color-blue;
-    background: linear-gradient(to left top, rgba(24, 130, 243, 0.801), rgba(153, 186, 221, 0.801));
+    background: linear-gradient(to left top, $color-blue, $color-blue);
 
     &__button {
         text-align: center;

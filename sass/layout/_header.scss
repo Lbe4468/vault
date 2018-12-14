@@ -1,6 +1,6 @@
 .header {
     height: 100vh;
-    background-image: linear-gradient(to left top, rgba(24, 130, 243, 0.801), rgba(153, 186, 221, 0.801)), url(../img/bank-vault.jpg);
+    background-image: linear-gradient(to left top, $color-blue, $color-blue), url(../img/bank-vault.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -32,6 +32,10 @@
         transform: translate(-50%, -50%);
         text-align: center;
     }
+
+    &__btn {
+        padding: 1rem 0 1rem 0;
+    }
 }
 
 .heading-primary {
@@ -40,7 +44,7 @@
 
     &--main {
         display: block;
-        font-size: 60px;
+        font-size: 6.5rem;
         font-weight: 600;
         letter-spacing: 10px;
         animation-name: moveInLeft;
@@ -51,8 +55,8 @@
     &--sub {
         padding: 7.5px 0 30px 0;
         display: block;
-        font-size: 18px;
-        font-weight: 700;
+        font-size: 2.25rem;
+        font-weight: 600;
         letter-spacing: 2.5px;
         animation-name: moveInRight;
         animation-duration: 1s;

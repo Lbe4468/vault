@@ -78,14 +78,14 @@ body {
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 15px 40px;
+  padding: 15px 35px;
   display: inline-block;
-  border-radius: 75px;
+  border-radius: 7.5rem;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.75rem;
   transition: all .25s;
   position: relative;
-  box-shadow: 0 2px 4px rgba(51, 51, 51, 0.2); }
+  box-shadow: 0 2px 4px rgba(51, 51, 51, 0.5); }
 
 .btn:hover {
   transform: translateY(-3px);
@@ -101,13 +101,19 @@ body {
   .btn--orange::after {
     background-color: #F64C72; }
 
+.btn--yellow {
+  background-color: yellow;
+  color: #333; }
+  .btn--yellow::after {
+    background-color: yellow; }
+
 .btn--animated {
   animation: moveInBottom .5s ease-out .5s;
   animation-fill-mode: backwards; }
 
 .card {
-  height: 32rem;
-  box-shadow: 1px 2px 4px 0 #333;
+  height: 40rem;
+  box-shadow: 0 0 4px 0.75px #000;
   text-align: center; }
   .card__heading {
     display: block;
@@ -160,7 +166,8 @@ body {
 .row {
   max-width: 114rem;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  padding: 0 1.5rem 0 1.5rem; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
     @media only screen and (max-width: 56.25em) {
@@ -200,7 +207,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to left top, rgba(24, 130, 243, 0.801), rgba(153, 186, 221, 0.801)), url(../img/bank-vault.jpg);
+  background-image: linear-gradient(to left top, rgba(24, 130, 243, 0.701), rgba(24, 130, 243, 0.701)), url(../img/bank-vault.jpg);
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -224,13 +231,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+  .header__btn {
+    padding: 1rem 0 1rem 0; }
 
 .heading-primary {
   color: #fff;
   text-transform: uppercase; }
   .heading-primary--main {
     display: block;
-    font-size: 60px;
+    font-size: 6.5rem;
     font-weight: 600;
     letter-spacing: 10px;
     animation-name: moveInLeft;
@@ -239,8 +248,8 @@ body {
   .heading-primary--sub {
     padding: 7.5px 0 30px 0;
     display: block;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 2.25rem;
+    font-weight: 600;
     letter-spacing: 2.5px;
     animation-name: moveInRight;
     animation-duration: 1s;
@@ -248,13 +257,23 @@ body {
 
 @media screen and (max-width: 600px) {
   .header__text-box {
-    margin-top: 6rem; } }
+    margin-top: 8rem; } }
+
+@media screen and (max-width: 400px) {
+  .header__text-box {
+    margin-top: 7rem; }
+  .heading-primary {
+    color: #fff; }
+    .heading-primary--main {
+      font-size: 5.5rem; }
+    .heading-primary--sub {
+      font-size: 2rem; } }
 
 .navigation__checkbox {
   display: none; }
 
 .navigation__button {
-  background-color: rgba(24, 130, 243, 0.801);
+  background-color: #333;
   height: 7rem;
   width: 7rem;
   position: fixed;
@@ -280,7 +299,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#0f3256, #0f3256);
+  background-image: radial-gradient(#333, #333);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
   @media only screen and (max-width: 56.25em) {
@@ -322,7 +341,7 @@ body {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #F64C72 50%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgba(24, 130, 243, 0.701) 50%);
   background-size: 220%;
   transition: all .4s; }
   .navigation__link:link span, .navigation__link:visited span {
@@ -347,7 +366,7 @@ body {
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
     width: 3rem;
     height: 2px;
-    background-color: #f7f7f7;
+    background-color: #fff;
     display: inline-block; }
   .navigation__icon::before, .navigation__icon::after {
     content: "";
@@ -394,7 +413,7 @@ body {
     color: #777; }
 
 .section-cta {
-  background: linear-gradient(to left top, rgba(24, 130, 243, 0.801), rgba(153, 186, 221, 0.801)); }
+  background: linear-gradient(to left top, rgba(24, 130, 243, 0.701), rgba(24, 130, 243, 0.701)); }
   .section-cta__button {
     text-align: center;
     padding: 4rem 0; }

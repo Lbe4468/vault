@@ -1,6 +1,7 @@
 .card {
     height: 40rem;
-    box-shadow: 0 0 4px .75px $color-black;
+    // box-shadow: 0 0 4px .75px $color-black;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .175);
     text-align: center;
 
     &__heading {

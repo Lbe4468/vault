@@ -281,6 +281,7 @@ body {
   right: 6rem;
   border-radius: 50%;
   z-index: 2000;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.275);
   text-align: center;
   cursor: pointer; }
   @media only screen and (max-width: 56.25em) {
